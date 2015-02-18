@@ -1,0 +1,194 @@
+@media screen and (max-width: 680px) {
+	
+	/*The code above is used to give to spread our menu bar items/
+	 with proportionated space between them(in small devices)*/
+	.menu ul{
+		display: -webkit-flex; /* Safari */
+	    -webkit-justify-content: space-around; /* Safari 6.1+ */
+	    display: flex;
+	    justify-content: space-around;
+	}
+
+	/*.  test background color on top 
+	rr {
+		background-color: #7E8C7F;
+	}*/
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 680px) {
+	
+
+	.content-col.col-12{
+		width: 50%;	
+	}
+	
+
+	.content-row div:nth-child(3n){
+		clear:left;
+	}
+
+	
+	.menu {
+		font-size:1.5em;
+		margin-bottom: 20px;
+	}
+
+
+	.menu ul li a {
+	margin: 0 7px 0 7px;
+	}
+
+	/*Above we put less padding (compared with the small devices)/
+	 to reduce the zone to activate the menu link, but we guarantee a zone >48x48px*/
+	.menu ul li a,
+	.menu ul li a:visited {
+		padding: 1em 0 0.7em 0; 
+	}
+	/**************Projets***********
+	
+	.title-project {
+		font-size: 1em;
+	}*/
+}
+
+
+
+@media screen and (min-width: 680px) {
+
+	/*We have to make the left and right side of the logo biggers to reduce the size of the logo*/
+	#left-logo,
+	#right-logo {
+		width:41.66%;
+	}
+
+
+	/*To make the logo div size smaller, in small devices a col-4 (33.33%) is good but for devices bigger than /
+	680px is too big, so we'll put the logo in a smaller container (16.66%)*/
+	#logo {
+		width:16.66%;
+	}
+
+
+	/*May be i can add a width and max width for .logojminterieurs*/
+	.content-col.col-12{
+		width: 33.33%;
+	}
+
+
+	.content-row div:nth-child(4n){
+		clear:left;
+	}
+
+
+	.menu {
+		font-size:1.8em;
+	}
+
+
+	.menu ul li {
+		margin: 0 20px 0 20px;
+	}
+
+	/*Above we still reduce the padding (compared with the small and medium devices)/		
+	 to reduce the zone to activate the menu link, but we guarantee a zone >48x48px*/
+	.menu ul li a,
+	.menu ul li a:visited {
+		padding: 0.8em 0 0.7em 0; 
+	}
+	/*******Index  -   Cycle-pictures********/
+
+	#s4{
+		width: 90% !important;
+	    padding: 0;  
+	    margin:  0 auto;  
+	    display: block;
+	}
+
+
+	/*******Index  -   Layout text-accueil***/
+	
+	.text-accueil {
+		width: 100%;
+		float: center;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 0;
+	}
+
+
+	/*******Projets**********/
+	
+	.title-project {
+		font-size: 0.75em;
+	}
+
+
+	/*******Projet 1,2,3,4,5,etc...**********/
+
+	.photos-projects { /*to display 2 pictures per line (as we did first for the portrait pictures in small devices)*/
+		width: 46%;
+	}
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 1080px) and (min-height: 750px){
+
+	body {
+	border-top: 80px solid black;}
+}
+
+
+@media screen and (min-width: 1080px) {
+	
+	body {
+		padding: 0 0;
+		border-left: 200px solid black; /*this and the command above is to have the two big black borders on the sides*/
+		border-right: 200px solid black;
+		min-height: 1000px;  /*to avoid the black borders from the two lines ahead to be cut in the middle*/
+	}
+	
+
+	#logo,
+	.menu {
+		text-align: right;
+	}
+	
+
+	/*To push the logo to the right and make it smaller*/
+	#left-logo {
+		width:83.33%;
+	}
+
+
+	/*Now we'll hide the right column to allow the center column (the one with the logo) to go to the right of the screen*/
+	#right-logo{
+		display:none;	
+	}
+
+	/*To make the logo div size smaller*/
+	#logo {
+		width:16.66%;
+	}
+
+
+	.menu ul li {
+		margin: 0 0 0 40px;
+	}
+
+
+	/*	.photo-index{
+		height: 60%;
+		width: 60%;
+	}
+	*/
+
+
+	/*******Projets**********/
+	
+	.title-project {
+		font-size: 1em;
+	}
+}
+

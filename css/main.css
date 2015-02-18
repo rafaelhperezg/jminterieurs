@@ -1,0 +1,202 @@
+/************* GENERAL ***********************/
+
+*{
+	color:black;
+	/*line-height: 1.5;*/
+}
+
+
+body{
+	background-color: #9EAF9F; /*#0C0B36; /*9A98D6; /*141161 #2E58C9*/
+}
+
+.grid{
+	/*background-color: #66CCFF;*/
+	padding: 0 20px;
+}
+
+
+img {
+	max-width:100%;
+	border: 5px solid black;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+h1, h2, h3{
+	font-family: 'Droid Serif', serif;
+}
+
+
+#logo {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+}
+
+.logojminterieurs {
+	border:2px solid black;
+	margin-bottom: 0;
+}
+
+
+/*************** MENU BAR *********************/
+
+.menu{
+	line-height: 2em;
+	text-align: center;
+	padding-top: 0;
+}
+
+
+/*this rule align the menu to the left. ps:false! this only works to reduce the size of the menu bar*/
+.menu ul, .menu ul li{   
+	margin:0;
+	padding:0;
+	background-color: none;
+}
+
+
+.menu ul li{
+	display:inline;
+}
+
+
+.menu ul li a, .menu ul li a:visited {
+	font-size: 0.8em;
+	padding: 1.4em 0 0.7em 0;  /*to guarantee a minimum size of 40x40 px of the menu links (specially for small devices)*/
+}
+
+
+.menu ul li a.selected, .menu ul li a:hover {
+	border-bottom: 4px solid black;
+	padding-bottom: 3px
+}
+
+
+/*Above is the code for the layout of the menu with sizes > 680px*/
+.menu ul li a {
+	margin: 0 0 0 400px;
+}
+
+
+.menu ul li a:first-child{
+	margin: 0;
+}
+
+
+
+/************************************************
+					INDEX (Accueil)
+************************************************/
+
+#s4{
+	width: 100% !important;
+    padding: 0;  
+    margin:  0 auto;  
+    display: block;
+}
+ 
+.photos-cycle{
+    top:  0; 
+    left: 0;
+    width: 100% !important;
+    height: auto !important;
+    border: 8px solid black;
+}
+
+.text-accueil {
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}
+
+
+/***********************************************
+				CONTACT
+***********************************************/
+
+.info-contact {
+	text-align: center;
+}
+
+.info-contact a {
+	min-height:20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+}
+
+.info-contact p.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.info-contact p.phone a {
+	background-image: url('../img/phone.png');
+}
+
+/************************************************
+					PROJETS
+************************************************/
+
+.link-photo {
+	position: relative;
+	display: block;
+}
+
+.photo-cover {
+	/*border-radius: 5%;*/
+}
+
+.title-project {
+	position:absolute;
+	/*margin-top: -50px;*/
+	background: rgba(172,171,179,0.9);
+	text-align: center;
+	width: calc(100% - 10px);/*the 10px represents the borders*/
+	bottom:10px;
+	left: 5px;
+}
+
+
+/************************************************
+					PROJET 1
+************************************************/
+
+/*Finally we'll not use those links !!!.link-back-project{
+	color:#434346;
+	font-size: 0.5em
+}
+
+
+.link-back-project a{
+	color:#434346;
+}*/
+
+
+.photos-projects {
+	margin: 0 1.5% 3% 1.5%;
+	border-radius: 3% 3% 3% 3%;
+}
+
+
+.portrait {
+	width:46%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
