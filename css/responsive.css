@@ -100,10 +100,7 @@
 	/*******Index  -   Cycle-pictures********/
 
 	#s4{
-		width: 90% !important;
-	    padding: 0;  
-	    margin:  0 auto;  
-	    display: block;
+		width: 70% !important;
 	}
 
 
@@ -178,13 +175,10 @@
 	}
 
 
-	/*	.photo-index{
-		height: 60%;
-		width: 60%;
+	#s4 {
+			/*width: 60% !important;*/
 	}
-	*/
-
-
+	
 	/*******Projets**********/
 	
 	.title-project {
