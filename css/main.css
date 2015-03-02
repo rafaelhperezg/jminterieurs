@@ -192,8 +192,6 @@ h1, h2, h3{
 
 
 .bouton-retour {
-	display: inline-block;
-	width:100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -201,6 +199,8 @@ h1, h2, h3{
 
 .bouton-retour img {
 		border-style: none;
+		padding: 10px;
+		margin: -25px auto 0;
 }
 
 
