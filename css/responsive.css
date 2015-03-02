@@ -37,7 +37,7 @@
 
 
 	.menu ul li a {
-	margin: 0 7px 0 7px;
+		margin: 0 7px 0 7px;
 	}
 
 	/*Above we put less padding (compared with the small devices)/
@@ -133,11 +133,11 @@
 }
 
 
-@media screen and (min-width: 680px) and (max-width: 1080px) and (min-height: 750px){
+/*@media screen and (min-width: 680px) and (max-width: 1080px) and (min-height: 750px){
 
 	body {
 	border-top: 80px solid black;}
-}
+}*/
 
 
 @media screen and (min-width: 1080px) {
