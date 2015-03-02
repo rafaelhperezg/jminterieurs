@@ -54,6 +54,14 @@
 }
 
 
+@media screen and (min-width: 680px) and (max-width: 1080px) {
+
+	.grid {
+		width: 90%;
+		/*margin-left: 100px;*/
+		/*margin-right: 100px;*/
+	}
+}
 
 @media screen and (min-width: 680px) {
 
@@ -100,7 +108,7 @@
 	/*******Index  -   Cycle-pictures********/
 
 	#s4{
-		width: 70% !important;
+		width: 85% !important;
 	}
 
 
@@ -176,7 +184,7 @@
 
 
 	#s4 {
-			/*width: 60% !important;*/
+		width: 75% !important;
 	}
 	
 	/*******Projets**********/
