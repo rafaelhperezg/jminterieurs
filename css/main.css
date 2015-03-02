@@ -8,6 +8,8 @@
 
 body{
 	background-color: #9EAF9F; /*#0C0B36; /*9A98D6; /*141161 #2E58C9*/
+	font-size: 16px;
+  	line-height: 1.2em;
 }
 
 .grid{
@@ -161,6 +163,7 @@ h1, h2, h3{
 	width: calc(100% - 10px);/*the 10px represents the borders*/
 	bottom:10px;
 	left: 5px;
+	padding: 1.5% 0 1.5% 0;
 }
 
 
