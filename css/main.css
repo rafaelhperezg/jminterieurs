@@ -191,8 +191,17 @@ h1, h2, h3{
 }
 
 
+.bouton-retour {
+	display: inline-block;
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+}
 
 
+.bouton-retour img {
+		border-style: none;
+}
 
 
 
