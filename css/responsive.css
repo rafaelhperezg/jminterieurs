@@ -46,12 +46,13 @@
 	.menu ul li a:visited {
 		padding: 1em 0 0.7em 0; 
 	}
-	/**************Projets***********
+	/*************Projets***********/
 	
 	.title-project {
-		font-size: 1em;
-	}*/
+		font-size: 0.8em;
+	}
 }
+
 
 
 @media screen and (min-width: 680px) and (max-width: 1080px) {
@@ -61,33 +62,63 @@
 		/*margin-left: 100px;*/
 		/*margin-right: 100px;*/
 	}
+
+
+	.content-col.col-12{
+		width: 50%;	
+	}
+	
+
+	.content-row div:nth-child(3n){
+		clear:left;
+	}
+
+
+	.title-project {
+		font-size: 1em!important;
+	}
 }
+
 
 @media screen and (min-width: 680px) {
 
 	/*We have to make the left and right side of the logo biggers to reduce the size of the logo*/
-	#left-logo,
+	/*#left-logo,
 	#right-logo {
 		width:41.66%;
-	}
+	}*/
 
 
 	/*To make the logo div size smaller, in small devices a col-4 (33.33%) is good but for devices bigger than /
 	680px is too big, so we'll put the logo in a smaller container (16.66%)*/
+	/*#logo {
+		width:16.66%;
+	}*/
+
+	#logo,
+	.menu {
+		text-align: right;
+	}
+	
+
+	/*To push the logo to the right and make it smaller*/
+	#left-logo {
+		width:83.33%;
+	}
+
+
+	/*Now we'll hide the right column to allow the center column (the one with the logo) to go to the right of the screen*/
+	#right-logo{
+		display:none;	
+	}
+
+
+	/*To make the logo div size smaller*/
+	/*May be i can add a width and max width for .logojminterieurs*/
 	#logo {
 		width:16.66%;
 	}
-
-
-	/*May be i can add a width and max width for .logojminterieurs*/
-	.content-col.col-12{
-		width: 33.33%;
-	}
-
-
-	.content-row div:nth-child(4n){
-		clear:left;
-	}
+	
 
 
 	.menu {
@@ -96,8 +127,9 @@
 
 
 	.menu ul li {
-		margin: 0 20px 0 20px;
+		margin: 0 0 0 40px;
 	}
+
 
 	/*Above we still reduce the padding (compared with the small and medium devices)/		
 	 to reduce the zone to activate the menu link, but we guarantee a zone >48x48px*/
@@ -126,7 +158,7 @@
 	/*******Projets**********/
 	
 	.title-project {
-		font-size: 0.75em;
+		font-size: 0.75rem;
 	}
 
 
@@ -155,42 +187,37 @@
 	}
 	
 
-	#logo,
-	.menu {
-		text-align: right;
-	}
-	
-
-	/*To push the logo to the right and make it smaller*/
-	#left-logo {
-		width:83.33%;
-	}
-
-
-	/*Now we'll hide the right column to allow the center column (the one with the logo) to go to the right of the screen*/
-	#right-logo{
-		display:none;	
-	}
-
-	/*To make the logo div size smaller*/
-	#logo {
-		width:16.66%;
-	}
-
-
-	.menu ul li {
-		margin: 0 0 0 40px;
-	}
-
-
 	#s4 {
 		width: 75% !important;
 	}
 	
 	/*******Projets**********/
 	
+	
+	.content-col.col-12{
+		width: 33.33%;
+	}
+
+	.content-row div:nth-child(3n){
+		clear:right;
+	}
+
+	.content-row div:nth-child(4n){
+		clear:left;
+	}
+
+
 	.title-project {
-		font-size: 1em;
+		font-size: 0.775em;
 	}
 }
 
+
+
+
+/******************MINOR BREAK POINT*****************/
+@media screen and (min-width: 1250px) {
+
+	.title-project {
+			font-size: 1em;
+		}
