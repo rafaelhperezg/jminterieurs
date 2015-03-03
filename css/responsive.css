@@ -214,9 +214,19 @@
 
 
 
-/******************MINOR BREAK POINT*****************/
+/******************MINOR BREAKS POINT*****************/
 @media screen and (min-width: 1250px) {
 
 	.title-project {
 			font-size: 1em;
 		}
+
+
+
+
+/*This min-height will avoid sides black margins to be too short on big screens*/
+@media screen and (min-width: 1600px) {
+	.grid {
+		min-height: 2000px;
+}
+
