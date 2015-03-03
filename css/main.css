@@ -71,7 +71,7 @@ h1, h2, h3{
 
 
 .menu ul li a, .menu ul li a:visited {
-	font-size: 0.8em;
+	font-size: 0.875em;
 	padding: 1.4em 0 0.7em 0;  /*to guarantee a minimum size of 40x40 px of the menu links (specially for small devices)*/
 }
 
