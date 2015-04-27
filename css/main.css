@@ -5,7 +5,10 @@
 	/*line-height: 1.5;*/
 }
 
-
+/*code to use the new fonts
+font-family: 'Allerta', sans-serif;
+font-family: 'Crimson Text', serif;
+*/
 body{
 	background-color: #9EAF9F; /*#0C0B36; /*9A98D6; /*141161 #2E58C9*/
 	font-size: 16px;
