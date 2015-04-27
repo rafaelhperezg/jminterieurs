@@ -9,6 +9,7 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		$('#s4').css('height', ($('#s4').width() * 0.75));
 	});
+	$('#s4').css('height', ($('#s4').width() * 0.75));
 });
 
 
