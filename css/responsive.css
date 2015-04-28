@@ -24,10 +24,10 @@
 		width: 50%;	
 	}
 	
-
-	.content-row div:nth-child(3n){
+	/***********Note:on 28/04 i commented this "clear: left" bacause it created a problem with the order of the cover pictures******/
+	/*.content-row div:nth-child(3n){
 		clear:left;
-	}
+	}*/
 
 	
 	.menu {
@@ -67,10 +67,10 @@
 		width: 50%;	
 	}
 	
-
-	.content-row div:nth-child(3n){
+	/***********Note:on 28/04 i commented this "clear: left" bacause it created a problem with the order of the cover pictures******/
+	/*.content-row div:nth-child(3n){
 		clear:left;
-	}
+	}*/
 
 
 	.title-project {
