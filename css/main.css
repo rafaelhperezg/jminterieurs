@@ -46,6 +46,9 @@ p, span {
 	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
 }
 
+p {
+	text-indent: 0.75em;
+}
 
 #logo {
 	text-align: center;
