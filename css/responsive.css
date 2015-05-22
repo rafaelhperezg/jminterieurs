@@ -94,31 +94,9 @@
 		width:16.66%;
 	}*/
 
-	#logo,
 	.menu {
 		text-align: right;
 	}
-	
-
-	/*To push the logo to the right and make it smaller*/
-	#left-logo {
-		width:83.33%;
-	}
-
-
-	/*Now we'll hide the right column to allow the center column (the one with the logo) to go to the right of the screen*/
-	#right-logo{
-		display:none;	
-	}
-
-
-	/*To make the logo div size smaller*/
-	/*May be i can add a width and max width for .logojminterieurs*/
-	#logo {
-		width:16.66%;
-	}
-	
-
 
 	.menu {
 		font-size:1.8em;
