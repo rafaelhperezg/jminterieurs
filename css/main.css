@@ -36,7 +36,7 @@ a {
 }
 
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
 	/*font-family: 'Josefin Slab', serif;*/
 	/*font-family: 'Allerta, serif;*/
 	font-family: 'Dancing Script', Georgia, Times, serif;
@@ -50,10 +50,16 @@ p {
 	text-indent: 0.75em;
 }
 
-.logojminterieurs {
+.logo h2{
+	margin: 15px 0 0 0;
+	/*padding: 0;*/
+}
+/*body{background-color:black;}*/
+
+/*.logojminterieurs {
 	border:2px solid black;
 	margin-bottom: 0;
-}
+}*/
 
 
 /*************** MENU BAR *********************/
@@ -102,6 +108,29 @@ p {
 	margin: 0;
 }
 
+
+/*FOOTER*/
+.footer {
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.footer ul {
+	list-style: none;
+	text-align: center;
+}
+
+.footer ul li, .textFooter, .linkFooter{
+	color: gray;
+}
+
+.footerJM {
+	margin-bottom: 5px;
+}
+
+.linkFooter {
+	text-decoration: underline;
+}
 
 
 /************************************************
