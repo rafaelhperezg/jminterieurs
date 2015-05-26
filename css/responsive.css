@@ -9,12 +9,24 @@
 	    justify-content: space-around;
 	}
 
-	
 	.photo-cover {
 		margin-bottom: 5px;
 	}
 	
+	.logo-big-devices {
+		display: none;
+	}
+
+	.logo-small-devices {
+		display: block;
+	}	
 	
+	.logo-small-devices h2 {
+		line-height: 1.4em;
+	}
+	.subtitle-prestations {
+		line-height: 1.3em;
+	}	
 }
 
 

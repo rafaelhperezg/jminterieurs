@@ -50,16 +50,18 @@ p {
 	text-indent: 0.75em;
 }
 
+
+/******logo*****/
+
 .logo h2{
 	margin: 15px 0 0 0;
-	/*padding: 0;*/
 }
-/*body{background-color:black;}*/
 
-/*.logojminterieurs {
-	border:2px solid black;
-	margin-bottom: 0;
-}*/
+.logo-small-devices{
+	display: none;
+	text-align: center;
+}
+
 
 
 /*************** MENU BAR *********************/
@@ -163,6 +165,15 @@ p {
 
 
 /***********************************************
+				PRESTATIONS
+***********************************************/
+
+.img-prestations {
+	display: block;
+	margin: 0 auto;
+}
+
+/***********************************************
 				CONTACT
 ***********************************************/
 
@@ -170,6 +181,15 @@ p {
 	text-align: center;
 	min-height: 500px;
 }
+
+.persons-contact{
+	line-height: 2.2em;
+}
+
+.mail {
+	margin-top: 60px;
+}
+
 
 .info-contact a {
 	min-height:20px;
