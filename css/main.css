@@ -48,20 +48,30 @@ p, span {
 
 p {
 	text-indent: 0.75em;
+	text-align: justify;
+	line-height: 1.8em;
 }
 
 
 /******logo*****/
 
 .logo h2{
-	margin: 15px 0 0 0;
+	margin: 25px 0 5px 0;
+	padding: 0;
 }
 
 .logo-small-devices{
 	display: none;
 	text-align: center;
+	padding: 0;
+	margin: 0 0 20px 0;
 }
 
+.logo,
+.logo-big-devices {
+	padding: 0;
+	margin:0;
+}
 
 
 /*************** MENU BAR *********************/
@@ -136,6 +146,7 @@ p {
 
 .credits {
 	font-size: 0.75em;
+	text-align: center;
 }
 
 
@@ -160,7 +171,8 @@ p {
 
 .text-accueil {
 	padding: 5px 20px 5px 20px;
-	text-align: center;
+	/*text-align: center;*/
+	max-width: 35em;
 }
 
 
@@ -183,11 +195,16 @@ p {
 }
 
 .persons-contact{
-	line-height: 2.2em;
+	line-height: 1.6em;
 }
 
 .mail {
-	margin-top: 60px;
+	margin-top: 40px;
+}
+
+.mail,
+.phone {
+	text-align: center;
 }
 
 
