@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('#s4').cycle({ 
 	    fx:      'scrollUp', 
 	    speed:    2000, 
-	    timeout:  2000,
+	    timeout:  1000,
 	    pause:  1  
 	});
 
@@ -41,3 +41,26 @@ $(document).ready(function(){
 // uncover
 // wipe
 // zoom
+
+$(document).ready(function(){
+	$("#prueba-bas-page").hide()
+});
+
+$(".fleche-bas-index").hover(function(){
+	$("#prueba-bas-page").show();
+	$('html, body').animate({
+        scrollTop: $("#prueba-bas-page").offset().top
+    }, 5000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
