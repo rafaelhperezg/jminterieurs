@@ -135,7 +135,7 @@
 		padding: 0 0;
 		border-left: 200px solid black; /*this and the command above is to have the two big black borders on the sides*/
 		border-right: 200px solid black;
-		min-height: 1000px;  /*to avoid the black borders from the two lines ahead to be cut in the middle*/
+		min-height: 800px;  /*to avoid the black borders from the two lines ahead to be cut in the middle*/
 	}
 	
 

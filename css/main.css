@@ -168,6 +168,7 @@ p {
 
 .info-contact {
 	text-align: center;
+	min-height: 500px;
 }
 
 .info-contact a {
@@ -188,6 +189,10 @@ p {
 /************************************************
 					PROJETS
 ************************************************/
+
+.content-row {  /*to be sure the footer is down the page and not in the middle*/
+	min-height: 500px;
+}
 
 .link-photo {
 	position: relative;
