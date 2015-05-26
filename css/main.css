@@ -203,6 +203,7 @@ p {
 	bottom:10px;
 	left: 5px;
 	padding: 1.5% 0 1.5% 0;
+	font-size: 0.85em; /*this font size was designed to addapt to a laptop of 1.250px wide*/
 }
 
 
