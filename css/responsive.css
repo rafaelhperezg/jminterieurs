@@ -118,6 +118,12 @@
 	.photos-projects { /*to display 2 pictures per line (as we did first for the portrait pictures in small devices)*/
 		width: 46%;
 	}
+
+	.portrait {
+		width: 29.5%;
+	}
+
+	
 }
 
 
