@@ -109,19 +109,19 @@ p {
 }
 
 
-/*FOOTER*/
+/*******************FOOTER***************************/
 .footer {
-	margin-top: 30px;
+	margin-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-}
-.footer ul {
-	list-style: none;
 	text-align: center;
+	border-top: 1px solid gray;
+
 }
 
 .footer ul li, .textFooter, .linkFooter{
 	color: gray;
+
 }
 
 .footerJM {
@@ -130,6 +130,10 @@ p {
 
 .linkFooter {
 	text-decoration: underline;
+}
+
+.credits {
+	font-size: 0.75em;
 }
 
 
