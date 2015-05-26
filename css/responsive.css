@@ -24,8 +24,13 @@
 	.logo-small-devices h2 {
 		line-height: 1.4em;
 	}
+
 	.subtitle-prestations {
 		line-height: 1.3em;
+	}
+
+	.bouton-haut-page {
+		display: block;
 	}	
 }
 

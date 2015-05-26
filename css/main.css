@@ -179,7 +179,7 @@ p {
 
 .info-contact {
 	text-align: center;
-	min-height: 500px;
+	min-height: 475px;
 }
 
 .persons-contact{
@@ -211,7 +211,7 @@ p {
 ************************************************/
 
 .content-row {  /*to be sure the footer is down the page and not in the middle*/
-	min-height: 500px;
+	min-height: 475px;
 }
 
 .link-photo {
@@ -233,6 +233,16 @@ p {
 	left: 5px;
 	padding: 1.5% 0 1.5% 0;
 	font-size: 0.85em; /*this font size was designed to addapt to a laptop of 1.250px wide*/
+}
+
+.bouton-haut-page {
+	display: none;
+}
+
+.image-haut-page {
+	display: block;
+	margin: 0 auto;
+	border: none;
 }
 
 
