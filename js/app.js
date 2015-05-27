@@ -43,23 +43,22 @@ $(document).ready(function(){
 // zoom
 
 $(document).ready(function(){
-	$("#prueba-bas-page").hide()
+	if ($(document).width() >= 1250) {
+		$("#target-fleche-bas").hide();
+		$(".div-fleche-haut").hide();
+	} else {
+		$(".div-fleche-haut").hide();
+		$(".div-fleche-bas").hide();
+	}
 });
 
-$(".fleche-bas-index").hover(function(){
-	$("#prueba-bas-page").show();
+$(".fleches-index").hover(function(){
+	$("#target-fleche-bas").show();
+	$(".div-fleche-haut").show();
 	$('html, body').animate({
-        scrollTop: $("#prueba-bas-page").offset().top
-    }, 5000);
+        scrollTop: $( $(this).parent().attr('href') ).stop(true,true).offset().top
+    }, 1500);
 });
-
-
-
-
-
-
-
-
 
 
 

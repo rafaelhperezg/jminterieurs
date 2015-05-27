@@ -175,10 +175,12 @@ p {
 	max-width: 35em;
 }
 
-.rafa {
-	width: 10px;
-	height: 5px;
+.fleches-index {
+	display: block;
+	margin: 0 auto;
+	border: none;
 }
+
 
 /***********************************************
 				PRESTATIONS
