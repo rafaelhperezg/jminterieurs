@@ -73,6 +73,9 @@ p {
 	margin:0;
 }
 
+.logo-big-devices h2{
+	/*text-shadow: 1px 1px #6A6A75;*/
+}
 
 /*************** MENU BAR *********************/
 
@@ -181,6 +184,10 @@ p {
 	max-width: 30em;
 }
 
+.center {
+	text-align: center;
+}
+
 .fleches-index {
 	display: block;
 	margin: 0 auto;
@@ -200,6 +207,9 @@ p {
 .text-prestations {
 	max-width: 35em;
 	margin-top: 20px;
+}
+
+.main-title-prestations{
 }
 
 /***********************************************
@@ -317,21 +327,4 @@ p {
 		padding: 10px;
 		margin: -25px auto 0;
 }
-
-
-
-CAMPO PARA PRUEBAS!!!!!!!!!!!!!!!!!!!
-
-/*#page-opener {
-	margin: 0 auto 0 auto;
-	display: none;
-}
-
-body {
-	background-color: black;
-}
-*/
-/*.logo h2{
-	text-shadow: 1px 1px red;
-}*/
 

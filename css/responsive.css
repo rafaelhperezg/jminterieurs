@@ -31,7 +31,14 @@
 
 	.bouton-haut-page {
 		display: block;
-	}	
+	}
+
+	/*Prestations*/
+	.img-prestations {
+		margin-bottom: -20px;
+	}
+
+
 }
 
 
@@ -179,6 +186,11 @@
 
 	.content-row div:nth-child(4n){
 		clear:left;
+	}
+
+	/*Prestations*/
+	.main-title-prestations{
+		text-align: center;
 	}
 
 }
