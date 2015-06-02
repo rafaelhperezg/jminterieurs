@@ -169,10 +169,16 @@ p {
     border: 8px solid black;
 }
 
-.text-accueil {
+.text-long {
 	padding: 5px 20px 5px 20px;
-	/*text-align: center;*/
-	max-width: 35em;
+	max-width: 30em;
+	float: none !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-accueil {
+	max-width: 30em;
 }
 
 .fleches-index {
@@ -191,6 +197,10 @@ p {
 	margin: 0 auto;
 }
 
+.text-prestations {
+	max-width: 35em;
+	margin-top: 20px;
+}
 
 /***********************************************
 				CONTACT
