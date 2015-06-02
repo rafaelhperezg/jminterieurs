@@ -38,6 +38,17 @@
 		margin-bottom: -20px;
 	}
 
+	/*Contact*/
+	.info-contact {
+		width: 100%;
+		order: 1;
+	}
+
+	.content-photo-contact {
+		width: 100%;
+		order: -1;
+	}
+
 
 }
 
