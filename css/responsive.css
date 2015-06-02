@@ -38,16 +38,6 @@
 		margin-bottom: -20px;
 	}
 
-	/*Contact*/
-	.info-contact {
-		width: 100%;
-		order: 1;
-	}
-
-	.content-photo-contact {
-		width: 100%;
-		order: -1;
-	}
 
 
 }
@@ -131,6 +121,11 @@
 	}
 
 
+}
+
+
+
+
 	/*******Projet 1,2,3,4,5,etc...**********/
 
 	.photos-projects { /*to display 2 pictures per line (as we did first for the portrait pictures in small devices)*/
@@ -207,7 +202,77 @@
 }
 
 
+/*__________________Break points for CONTACT__________________*/
 
+@media screen and (max-width: 680px) {
+
+	/*Contact*/
+	.row.row-contact {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.info-contact {
+		order: 1;
+	}
+
+	.content-photo-contact {
+		order: -1;
+		margin-bottom: -20px;/*just to remove some white space*/
+	}
+
+	/*now we'll adjust the size of the text and its spaces (still in page Contact)*/
+
+	.persons-contact {
+		line-height: 1.2em;
+		font-size: 1.5em;
+	}
+
+	.mail {
+		margin-top: 0;
+	}
+
+
+	.info-contact a {
+		/*min-height:10px;*/
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		padding:0 0 0 30px;
+	}
+
+
+}
+
+@media screen and (min-width: 681px) and (max-width: 980px) {
+
+	/*Contact*/
+	.row.row-contact {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.info-contact {
+		order: 1;
+	}
+
+	.content-photo-contact {
+		order: -1;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 981px) {
+	.info-contact {
+		width: 50%;
+		min-height: 490px;
+	}
+
+	.content-photo-contact {
+		width: 50%;
+	}
+
+}
 
 /******************MINOR BREAKS POINT*****************/
 
