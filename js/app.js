@@ -60,6 +60,33 @@ $(".fleches-index").hover(function(){
     }, 1500);
 });
 
+// $(document).ready( function(){
+//         $("html").hide();
+//         $("html").delay(500).fadeIn();  
+//         $(window).unload(function () {
+//             $("html").fadeOut();
+//         });
+//     });
 
 
+$(document).ready(function () {
+        $('#target-fleche-haut').hide().fadeIn(3000);
+         // $('html').hide().fadeIn(1000);
+    });
+
+
+// $(document).ready(function(){
+// 	$(".grid").hide();
+// 	var styles = {
+// 		backgroundColor : "black",
+// 		backgroundImage : "url(img/-logojminterieurs_opt.jpg)",
+// 		backgroundRepeat : "no-repeat",
+// 		backgroundPosition : "center center"
+// 	}
+// 	$("body").css(styles);
+// 	// $("body").css("background-color", "black").css("background", "url(img/-logojminterieurs_opt.jpg)").css("background-repeat", "no-repeat").css("background-position", "center center");
+	
+
+// 	$(".grid").show(2000);
+// },5000);
 

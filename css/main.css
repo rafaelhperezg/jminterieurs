@@ -56,7 +56,7 @@ p {
 /******logo*****/
 
 .logo h2{
-	margin: 25px 0 5px 0;
+	margin: 35px 0 5px 0;
 	padding: 0;
 }
 
@@ -191,13 +191,14 @@ p {
 	margin: 0 auto;
 }
 
+
 /***********************************************
 				CONTACT
 ***********************************************/
 
 .info-contact {
 	text-align: center;
-	min-height: 475px;
+	min-height: 490px;
 }
 
 .persons-contact{
@@ -234,7 +235,7 @@ p {
 ************************************************/
 
 .content-row {  /*to be sure the footer is down the page and not in the middle*/
-	min-height: 475px;
+	min-height: 490px;
 }
 
 .link-photo {
@@ -309,7 +310,18 @@ p {
 
 
 
+CAMPO PARA PRUEBAS!!!!!!!!!!!!!!!!!!!
 
+/*#page-opener {
+	margin: 0 auto 0 auto;
+	display: none;
+}
 
-
+body {
+	background-color: black;
+}
+*/
+/*.logo h2{
+	text-shadow: 1px 1px red;
+}*/
 
