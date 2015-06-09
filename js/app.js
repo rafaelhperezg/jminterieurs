@@ -49,6 +49,8 @@ $(document).ready(function(){
 	} else {
 		$(".div-fleche-haut").hide();
 		$(".div-fleche-bas").hide();
+		$(".content-text-index").addClass("div-before-footer");//This line is necessary to get the footer in the
+		 													   //good position on small and medium devices
 	}
 });
 
