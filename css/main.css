@@ -24,8 +24,8 @@ body{
 	padding: 0 20px;
 }
 
-/**
- * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+/** 
+ *  To get a footer highly responsive i get ideas from: CSSReset.com - How To Keep Footer At Bottom of Page with CSS
  * 
  * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
  * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
@@ -56,7 +56,14 @@ body {
 .footer-col {
 	padding: 0!important;
 }
-/*_________end code for managing the footer down*/
+
+/*
+*
+*
+*
+_________end code for managing the footer down*/
+
+
 img {
 	max-width:100%;
 	border: 5px solid black;
@@ -158,12 +165,8 @@ p {
 
 /*******************FOOTER***************************/
 .footer {
-	/*margin-top: 60px;
-	margin-bottom: 0;
-	padding-bottom: 0;*/
 	text-align: center;
 	border-top: 1px solid gray;
-
 }
 
 .footer ul li, .textFooter, .linkFooter{
@@ -244,6 +247,7 @@ p {
 .main-title-prestations{
 }
 
+
 /***********************************************
 				CONTACT
 ***********************************************/
@@ -284,14 +288,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
 /************************************************
 					PROJETS
 ************************************************/
@@ -328,19 +324,10 @@ p {
 }
 
 
+
 /************************************************
 					PROJET 1
 ************************************************/
-
-/*Finally we'll not use those links !!!.link-back-project{
-	color:#434346;
-	font-size: 0.5em
-}
-
-
-.link-back-project a{
-	color:#434346;
-}*/
 
 
 .photos-projects {

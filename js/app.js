@@ -1,3 +1,5 @@
+
+// _______________code for the slider on Index__________________________
 $(document).ready(function(){
 	$('#s4').cycle({ 
 	    fx:      'scrollUp', 
@@ -42,6 +44,8 @@ $(document).ready(function(){
 // wipe
 // zoom
 
+
+// _______________code for the little animation for the text on Index__________________________
 $(document).ready(function(){
 	if ($(document).width() >= 1250) {
 		$("#target-fleche-bas").hide();
@@ -64,6 +68,7 @@ $(".fleches-index").hover(function(){
     $(".div-fleche-bas").removeClass("div-before-footer");
 });
 
+// ___________This was a try to get anotrer animation when loading the page
 // $(document).ready( function(){
 //         $("html").hide();
 //         $("html").delay(500).fadeIn();  
@@ -74,8 +79,16 @@ $(".fleches-index").hover(function(){
 
 
 
-// This piede of code is to hide and fade out the logo Jm interieurs ____________
+// _______________This piede of code is to hide and fade out the logo Jm interieurs ____________
 $(document).ready(function () {
         $('#target-fleche-haut').hide().fadeIn(3000);
          // $('html').hide().fadeIn(1000);
     });
+
+
+
+
+
+
+
+
