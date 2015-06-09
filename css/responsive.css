@@ -74,11 +74,7 @@
 	.menu ul li a:visited {
 		padding: 1em 0 0.7em 0; 
 	}
-	/*************Projets***********/
 	
-	.title-project {
-		font-size: 0.7em;
-	}
 }
 
 
@@ -116,7 +112,6 @@
 	
 	.text-accueil {
 		width: 100%;
-		float: center;
 		margin: 0 auto;
 		text-align: justify;
 		padding: 0;
@@ -153,10 +148,6 @@
 		clear:left;
 	}*/
 
-
-	.title-project {
-		font-size: 0.9em;
-	}
 }
 
 
@@ -274,13 +265,37 @@
 
 }
 
-/******************MINOR BREAKS POINT*****************/
+/*__________________END Break points for CONTACT*/
 
-@media screen and (min-width: 360px) {  /*to get a slighty bigger font size for smart phones from 360 px, like google nexus 5 or iphone 6*/
+
+/*____________________MINOR BREAKS POINTs for the titles of the page "projets"_____________*/
+
+@media screen and (min-width: 360px) and (max-width: 479px) { /*to get a slighty bigger font size for smart phones from 360 px, like google nexus 5 or iphone 6*/
 
 	.title-project {
-			font-size: 1.05em;
+			font-size: 1em;
 		}
+}
+
+@media screen and (min-width: 480px) and (max-width: 549px) {
+
+	.title-project {
+		font-size: 0.65em;
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 680px) {
+
+	.title-project {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (min-width: 680px) and (max-width: 979px) {
+
+	.title-project {
+		font-size: 0.9em;
+	}
 }
 
 @media screen and (min-width: 980px) and (max-width: 1249px){  /*to get a slighty bigger font size for tablets on landscape mode*/
@@ -290,20 +305,22 @@
 		}
 }
 
-
-
-@media screen and (min-width: 1400px) {  /*to get a slighty bigger font size for laptops*/
+@media screen and (min-width: 980px) and (max-width: 1249px){  /*to get a slighty bigger font size for tablets on landscape mode*/
 
 	.title-project {
-			font-size: 1em;
+			font-size: 1.4em;
+		}
+}
+@media screen and (min-width: 1400px) {
+
+	.title-project {
+			font-size: 0.95em;
 		}
 }
 
+@media screen and (min-width: 1800px) {
 
-
-/*This min-height will avoid sides black margins to be too short on big screens*/
-@media screen and (min-width: 1600px) {
-	.grid {
-		min-height: 2000px;
+	.title-project {
+			font-size: 1.3em;
+		}
 }
-
