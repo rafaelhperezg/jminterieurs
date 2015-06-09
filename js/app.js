@@ -58,6 +58,8 @@ $(".fleches-index").hover(function(){
 	$('html, body').animate({
         scrollTop: $( $(this).parent().attr('href') ).stop(true,true).offset().top
     }, 1500);
+    $(".div-fleche-haut").addClass("div-before-footer");
+    $(".div-fleche-bas").removeClass("div-before-footer");
 });
 
 // $(document).ready( function(){
@@ -69,24 +71,9 @@ $(".fleches-index").hover(function(){
 //     });
 
 
+
+// This piede of code is to hide and fade out the logo Jm interieurs ____________
 $(document).ready(function () {
         $('#target-fleche-haut').hide().fadeIn(3000);
          // $('html').hide().fadeIn(1000);
     });
-
-
-// $(document).ready(function(){
-// 	$(".grid").hide();
-// 	var styles = {
-// 		backgroundColor : "black",
-// 		backgroundImage : "url(img/-logojminterieurs_opt.jpg)",
-// 		backgroundRepeat : "no-repeat",
-// 		backgroundPosition : "center center"
-// 	}
-// 	$("body").css(styles);
-// 	// $("body").css("background-color", "black").css("background", "url(img/-logojminterieurs_opt.jpg)").css("background-repeat", "no-repeat").css("background-position", "center center");
-	
-
-// 	$(".grid").show(2000);
-// },5000);
-
